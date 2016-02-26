@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "3.7.1" 
+        version     = "3.7.1" >
+        
+        <!--icon src="icon.PNG" width="57" height="57" density="mdpi" /-->
+
+    <name>HMaTeR Youtube Downloader</name>
+
+    <description>
+        Simple youtube downloader.
+        App just to see the web page.
+    </description>
+
+    <author email="hmater@gmail.com">
+        HMaTeR (Víctor Pérez Guerén)
+    </author>
+
+    <preference name="orientation" value="landscape" />
+
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+    <allow-navigation href="http://*/*" />
+    
+    <access origin="*" />
+
+</widget>
